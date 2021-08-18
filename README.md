@@ -20,7 +20,7 @@ Create a virtual environment of your choice. Here uses Anaconda:
 ```
 conda create -n fomc python=3.6 jupyter
 conda activate fomc
-pip install -r requirements.tx
+pip install -r requirements.txt
 ```
 #### Download input data
 1. Create data directory
