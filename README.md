@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This model utilizes economic indicators and text data from the FOMC to predict Fed Funds Rate decisions from 1 - 18 months into the future. Data is gathered and cleaned using code from Yuki Takahashi's FedSpeak project (description below). In Notebooks 5, I add LDA topic predictions as text data. Together with the LDA features, a RandomForest Classifier is used to make predictions on whether the Fed would increase, decrease, or hold their rates in the next 12 scheduled meetings (approximiately 18 months as meetings are every six weeks).
+This model utilizes economic indicators and text data from the FOMC to predict Fed Funds Rate decisions from 1 - 18 months into the future. Data is gathered and cleaned using code from Yuki Takahashi's FedSpeak project (description below). In Notebooks 5, I add LDA topic predictions as text data. Together with the LDA features, Notebook 6 uses a RandomForest Classifier to make predictions on whether the Fed would increase, decrease, or hold their rates in the next 12 scheduled meetings (approximiately 18 months as meetings are every six weeks).
 
 
 ## FedSpeak — How to build a NLP pipeline to predict central bank policy changes
